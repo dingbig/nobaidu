@@ -11,7 +11,7 @@
   "content_scripts": [
       {
         "matches": ["http://*/*","https://*/*"], 
-        "js": ["node_modules/jquery/dist/jquery.min.js","clean_google.js", "clean_bing.js"],
+        "js": ["node_modules/jquery/dist/jquery.min.js", "common.js", "clean_google.js", "clean_bing.js", "clean_baidu.js"],
         "run_at": "document_end",
         "all_frames": true 
 

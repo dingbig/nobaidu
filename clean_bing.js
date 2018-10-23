@@ -3,11 +3,7 @@
 if(window.location.host.indexOf('bing.com') > -1 ) {
     var flag = false;
     var keywords = ['百度', 'baidu', 'BAIDU', 'Baidu'];
-    function each_keyword(proc) {
-        $.each(keywords, function(i, key){
-            proc(key);
-        });
-    }
+
     
     
     each_keyword(function(key){
